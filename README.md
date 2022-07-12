@@ -14,6 +14,7 @@ Arquivo A | Versão 1 | Versão 2
 Arquivo B | Versão 1 | Versão 2
 
 ## Instalação do GIT
+https://git-scm.com
 
 ## Criar conta no GitHub
 
