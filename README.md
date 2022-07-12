@@ -23,6 +23,8 @@ https://git-scm.com
 ##  Commits
 Informação de alteração
   - após testado todo seu código
+  - git add *
+  - git commit -m "mensagem"
 
 ## Git Flow
 Fluxo do Git
