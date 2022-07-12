@@ -1,0 +1,32 @@
+#foto-rodrigo {    
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 10px auto;    
+}
+
+#foto-rodrigo img {    
+    width: 200px;
+    height: 200px;
+    vertical-align: middle;
+}
+
+#article-apresentacao {    
+    margin: auto;    
+    text-align: justify;
+}
+
+#steam-gg {    
+    text-align: center;
+    letter-spacing: 2vw;
+    margin-top: 50px;
+}
+
+#rodape {
+    margin-top: 50px;    
+}
+
+#rodape p {
+    text-align: left;
+}

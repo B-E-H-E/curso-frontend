@@ -1,0 +1,27 @@
+
+#container p {
+    font-size: 0.9rem;    
+    text-align: center;
+    width: 75vw;
+    margin: 2vh auto;
+}
+
+@media (min-width:769px) {
+
+    article, #container {
+        width: 80vw;
+    }
+
+    #container p {
+        width: 50vw;
+    }
+
+    #container p, #container h3 {
+        position: relative;
+        left: -10vw;
+    }
+
+    nav, article {
+        min-height: 1000px;
+    }
+}

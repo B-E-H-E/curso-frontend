@@ -1,0 +1,43 @@
+#tituloform {
+	text-align: left;
+	border-bottom: 2px solid white;
+	border-left: 2px  solid white;
+	position: relative;
+    padding-left: 5px;	
+    padding-bottom: 3px;
+}
+
+form div {
+	margin: 6px; 
+	padding: 6px;
+	border-left: 2px solid white;
+	border-bottom: 2px solid rgba(255, 255, 255, 0.25);
+	position: static;
+}
+
+input, textarea {
+	padding: 5px;
+	margin: 5px;
+}
+
+input {
+    letter-spacing: 1px;
+}
+
+textarea {
+    border-radius: 5%;
+}
+
+p {
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+@media (min-width: 769px) {
+	article {
+    	width: 80vw;
+	}
+	nav, article {
+		min-height: 700px;
+	}
+}

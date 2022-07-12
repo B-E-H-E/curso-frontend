@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>HTML - Formulário</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="./css/layout_exercicio_08.css">
+		<link rel="stylesheet" type="text/css" href="./css/formularios.css">
+	</head> 
+	<body>
+		<header>
+			<h1>Formulário</h1>
+		</header>	
+		<div id="navegacao-1"> 
+			<nav>
+				<h3>Navegação</h3>
+				<ul>
+					<li><a href="exercicio_modulo_08.html">Homepage</a></li>
+					<li><a href="02_listas_e_links.html">Listas e Links</a></li>
+					<li><a href="03_formatacao_de_textos.html">Formatação de Textos</a></li>
+				</ul>
+			</nav>
+		</div>
+		<article>
+			<h1 id="tituloform">Preencha os dados abaixo:</h1>
+			<form method="post">
+				<div>
+					<label for="nome">Nome</label><br>
+					<input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+				</div>
+				<div>
+					<label for="email">E-mail</label><br>
+					<input type="email" name="email" id="email" placeholder="Digite seu e-mail">
+				</div>
+				<div>
+					<p><label>Quais linguagens você conhece?</label></p>
+						<input type="checkbox" name="linguagens" value="html">HTML
+						<input type="checkbox" name="linguagens" value="css">CSS
+						<input type="checkbox" name="linguagens" value="javascript">JavaScript
+					
+				</div>
+				<div>
+					<p><label>Qual linguagem você prefere?</label></p>
+						<input type="radio" name="linguagens" value="html">HTML
+						<input type="radio" name="linguagens" value="css">CSS
+						<input type="radio" name="linguagens" value="javascript">JavaScript
+				</div>
+				<div>
+					<p>
+						<label>Escolha uma cor:</label>
+						<select>
+							<option value="azul">Azul</option>
+							<option value="vermelho" selected>Vermelho</option>
+							<option value="verde">Verde</option>
+						</select>
+					</p>
+				</div>
+				<div>
+					<label for="mensagem">Mensagem</label><br>
+					<textarea name="mensagem" id="mensagem" rows="5"></textarea>
+				</div>
+				<div>
+					<input type="submit">
+				</div>
+			</form>
+		</article>		
+		<footer>
+			<div>
+				<img style="vertical-align:middle" width="50" src="https://www.svgrepo.com/show/331368/discord-v2.svg"> <strong>Behe#6277</strong>
+			</div>
+		</footer>
+	</body>
+</html>

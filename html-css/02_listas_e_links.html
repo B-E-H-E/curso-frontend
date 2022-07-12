@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>HTML - Listas e Links</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width-device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="./css/layout_exercicio_08.css">
+		<link rel="stylesheet" type="text/css" href="./css/listas-e-links.css">
+	</head>
+	<body>
+		<header>
+			<h1>Listas</h1>
+		</header>
+		<div id="navegacao-1"> 
+			<nav>
+				<h3>Navegação</h3>
+				<ul>
+					<li><a href="exercicio_modulo_08.html">Homepage</li>
+					<li><a href="03_formatacao_de_textos.html">Formatação de Textos</li>                        
+					<li><a href="06_formularios.html">Formulário</a></li>
+				</ul>
+			</nav>
+		</div>
+		<article>
+			<div id="lista-1">
+				<h2>Lista Não Ordenada - Países da América do Sul:</h2>	
+				<ul>
+					<li><h3><img class="band-pais" src="./images/band-brasil.jpg" alt="Brasil"> Brasil</h3></li>
+						<ul>
+							<li class="estado"><img class="band-estado" src="./images/band-ceara.jpg" alt="Ceará"><strong> Ceará</strong> > Fortaleza <img class="band-cidade" src="./images/band-fortaleza.png" alt="Fortaleza"></li>								
+							<li class="estado"><img class="band-estado" src="./images/band-maranhao.png" alt="Maranhão"><strong> Maranhão</strong> > São Luís <img class="band-cidade" src="./images/band-sl.png" alt="São Luís"></li>	
+							<li class="estado"><img class="band-estado" src="./images/band-pernambuco.jpeg" alt="Pernambuco"><strong> Pernambuco</strong> > Recife <img class="band-cidade" src="./images/band-recife.png" alt="Recife"></li>
+						</ul>	
+					<li><h3><img class="band-pais" src="./images/band-argentina.png" alt="Argentina"> Argentina</h3></li>
+					<li><h3><img class="band-pais" src="./images/band-equador.png" alt="Equador"> Equador</h3></li>
+				</ul>
+			</div>
+
+			<div id="lista-2">			
+				<h2>Listas Ordenadas - Animais pré-históricos da América do Sul:</h2>
+				<div id="l-genero">				
+					<ol>
+						<li><h3>Oxalaia</h3></li>		
+						<li><h3>Smilodon</h3></li>		
+						<li><h3>Carnotaurus</h3></li>
+					</ol>
+				</div>	
+				<div id="l-especie">
+					<ol>
+						<li><i>quilombensis</i></li>
+						<li><i>fatalis</i></li>
+						<li><i>populator</i></li>		
+						<li><i>sastrei</i></li>			
+					</ol>
+				</div>
+				<div id="l-imagens">
+					<ol>
+						<li><img src="./images/oxalaia.png"></li>
+						<li><img src="./images/fatalis.png"></li>
+						<li><img src="./images/populator.png"></li>
+						<li><img src="./images/sastrei.png"></li>
+					</ol>				
+				</div>
+			</div>			
+		</article>
+
+		<div id="navegacao-2">
+			<nav>
+				<div id="lista-definicoes">
+					<h3>Lista de Definições:</h3>
+					<dl>
+						<dt>Oxalaia quilombensis</dt>
+							<dd>Comprimento: 13m-15m</dd>
+							<dd>Altura quadril: 2m-2.5m</dd>
+						<dt>Carnotaurus sastrei</dt>
+							<dd>Comprimento: 7.5m-9m</dd>
+							<dd>Altura quadril: 2m-2.5m</dd>							
+					</dl>
+				</div>
+				
+				<div id="links-container">
+					<img src="./images/wikipedia.png">
+					<ul>							
+						<li><a href="https://en.wikipedia.org/wiki/Oxalaia" target="_blank">Oxalaia</a></li>
+						<li><a href="https://en.wikipedia.org/wiki/smilodon" target="_blank">Smilodon</a></li>
+						<li><a href="https://en.wikipedia.org/wiki/Carnotaurus" target="_blank">Carnotaurus</a></li>							
+					</ul>
+				</div>
+					
+			</nav>
+		</div>
+		<footer>
+			<div>
+				<img style="vertical-align:middle" width="50" src="https://www.svgrepo.com/show/331368/discord-v2.svg"> <strong>Behe#6277</strong>
+			</div>
+		</footer>
+	</body>
+</html>

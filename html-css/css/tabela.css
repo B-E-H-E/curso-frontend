@@ -1,0 +1,59 @@
+html {
+	margin: 0;
+	padding: 0;
+	font-family: verdana, arial, sans-serif;
+	font-size: 62.5%;
+	color: black;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+body {
+	background-color: #ffffff;
+	font-size: 1.2rem;
+}
+
+h1 {
+	margin-top: 50px;
+}
+
+h3 {
+	font-weight: lighter;
+	color: #aaaaaa;
+	margin-top: -10px;
+}
+
+table {
+	border: 1.5px solid white;
+	width: 75%;
+	border-collapse: collapse;
+	margin: 50px 30px;
+	position: relative;
+	left: 12.5%;
+}
+
+thead {
+	background-color: rgb(0, 110, 200);
+	color: white;
+}
+
+table thead th {
+	width: 21.25%;
+}
+
+th:first-child {
+	width: 15%;
+}
+
+tbody tr:nth-child(odd), tfoot {
+	background-color: rgba(0, 110, 190, 0.1);
+}
+
+table td, table th {
+	padding: 15px;
+	border: 1px solid rgba(150, 200, 255, 0.75);
+}
+
+td:first-child, tr:first-child {
+	font-weight: bold;
+}

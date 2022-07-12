@@ -1,0 +1,155 @@
+article {
+    background-image: url("../images/south-america.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;    
+}
+
+h2 {
+    margin-bottom: 5px;    
+}
+
+#lista-1 li, #lista-1 h3 {
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+.band-pais, .band-estado, .band-cidade {    
+    height: auto;
+    vertical-align: middle;    
+}
+
+.band-pais {
+    width: 75px;
+}
+
+.band-estado, .band-cidade {
+    width: 40px;
+}
+
+.estado {    
+    text-indent: 20px;
+}
+
+#lista-2 li, #lista-2 h3 {
+    text-align: center;         
+}
+
+#l-genero, #l-especie, #l-imagens {
+    display: inline-block;
+    width: 60vw;
+}
+
+ol li, ol li img {
+    float: left;    
+}
+
+#l-genero li {    
+    width: 20vw;
+    padding-top: 5px;
+}
+
+#l-especie li, #l-imagens li, #l-imagens li img {
+    width: 8.75vw;
+}
+
+#l-especie li:first-child, #l-imagens li:first-child {
+    margin-right: 7.5vw;
+    margin-left: 5vw;
+}
+
+#l-especie li:last-child, #l-imagens li:last-child {
+    margin-left: 7.5vw;
+    margin-right: 5vw;    
+}
+
+dt {
+    font-weight: bold;    
+}
+
+#links-container { 
+    width: 15vw;
+    margin: 50px auto 0 auto;
+    border: 2px solid white;
+    border-radius: 10%;
+    text-align: center;
+}
+
+#links-container li { 
+    margin-bottom: 6px;
+}
+
+#links-container img {
+    width: 50px;
+    margin-top: 3px;
+}
+
+#links-container li:hover {
+    color: black;
+    font-weight: bold;
+}
+
+@media (min-width:769px) {
+
+    dl {        
+        padding: 5px;  
+    }
+
+    dt {
+        margin-top: 3px;
+        text-indent: 5px;
+    }
+    
+    dd {
+        text-indent: 20px;
+    }
+}
+
+@media (max-width:768px) {
+    #l-genero, #l-especie, #l-imagens {        
+        width: 100vw;
+    }
+
+    #l-genero li {    
+        width: 33.3%;        
+    }
+    
+    #l-especie li, #l-imagens li, #l-imagens li img {
+        width: 15vw;
+    }
+    
+    #l-especie li:first-child, #l-imagens li:first-child {
+        margin-right: 12vw;
+        margin-left: 8vw;
+    }
+    
+    #l-especie li:last-child, #l-imagens li:last-child {
+        margin-left: 12vw;
+        margin-right: 8vw;    
+    }
+
+    dt, dd {
+        width: 33%;
+        float: left;
+        text-align: center;
+        padding-top: 10px;       
+    }
+    
+    #links-container { 
+        width: 100%;
+        margin-top: 10px;
+        border: 0px;
+        border-top: 2px solid white;
+        border-radius: 0;               
+        display: inline-block;        
+    }
+
+    #links-container li {               
+        width: 33%;
+    }
+
+    #navegacao-2 {
+        padding: 0;        
+    }
+
+}
