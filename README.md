@@ -31,3 +31,6 @@ Informação de alteração
 
 ## Git Flow
 Fluxo do Git
+
+### Branch
+Ramificações
