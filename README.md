@@ -32,5 +32,15 @@ Informação de alteração
 ## Git Flow
 Fluxo do Git
 
-### Branch
-Ramificações
+### Branches
+Ramificações / Versões paralelas
+  - Main/Master (Vai para produção, o projeto é publicado)
+  - Develop
+  - DOD (Definition of Done: critérios de aceite)
+  - Versionamento 0.1.10 -> 1.0.0
+
+git checkout -b dev (cria uma branch)
+git checkout dev (muda de branch)
+
+### Merge
+Mescla de branches
