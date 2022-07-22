@@ -3,33 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cine Devaneios - Newsletter</title>
+    <style>
+        html {
+            font-size: 62,5%;
+        }
+        body {
+            background-color: #dfaa71;
+        }
+        table {
+            width: 600px;
+            margin: 20px auto;
+            font-family: sans-serif;
+            text-align: center;
+            background-color: #f7e1ca;
+            padding: 20px;
+        }
+        #img1 {
+            width: 200px;
+        }
+        #img2 {
+            width: 300px;
+        }
+        a {
+            background-color: black;
+            color: #f7e1ca;
+            display: block;
+            margin: 0 auto;
+            padding: 10px;
+            width: 40%;
+            text-decoration: none;
+        }
+        @media (max-width: 767px) {
+            body {
+                margin: 0;
+            }
+            table {
+                width: 80vw;
+                margin: 0px auto;             
+            }
+        }
+    </style>
 </head>
-<body style="background-color: #ddd">
-    <table style="width: 600px; margin: 20px auto; font-family: sans-serif; text-align: center; background-color: #fff; padding: 20px;">
+<body>
+    <table>
         <tr>
             <td>
-                <img src="https://i5.walmartimages.com/asr/530ce893-ce6d-4d7f-85bf-36b52ebd45df.af044c9944148313dda6f6e39aa24dbc.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF" width="200px" style="margin-bottom: -25px;" alt="Cine Devaneios">
+                <img id="img1" src="./imagens/cine-icone.png" alt="Cine Devaneios">
             </td>
         </tr>
         <tr>
             <td>                
                 <h1>Cine Devaneios</h1>
-                <h2>Conteúdos de Cinema!</h2>
-                <h3>Críticas e Reviews de um jeito que você nunca viu antes.</h3>
-                <img>                    
+                <h2>Conteúdos de Cinema!</h2>                
                 <h3>Introdução ao Roteiro Audiovisual</h3>
                 <p>O cinema é, por etimologia, a arte do movimento. A ilusão da imagem que se move evoluiu ao longo de décadas para chegar ao que hoje conhecemos.</p>                        
                 <p>Dentro de um aspecto mercadológico, uma das partes mais importantes para o funcionamento do cinema é o entedimento de que as obras audiovisuais são realizadas em um esforço conjunto, de múltiplas partes.</p>
-                <p>Há departamentos e departamentos responsáveis pela árdua e gratificante tarefa de se fazer cinema. Dentro deles, há um primordial, a partir do qual todos os outros se organizam e se comunicam a fim de se dar forma a uma obra: <strong>o roteiro</strong>.</p>                               
+                <p>Há departamentos e departamentos responsáveis pela árdua e gratificante tarefa de se fazer cinema. Dentro deles, há um primordial, a partir do qual todos os outros se organizam e se comunicam a fim de se dar forma a uma obra: <strong>o roteiro</strong>.</p>
+                <img id="img2" src="./imagens/i-saw-the-devil-01.png" alt="Mulholland Drive">
+                <h3>Críticas e Reviews de um jeito que você nunca viu antes.</h3>                               
             </td>
         </tr>
         <tr>
             <td>                
-                <a style="background-color: black; color: white; display: block; margin: 0 auto; padding: 10px; width: 40%; text-decoration: none;" href="#">Conheça o site!</a>                
+                <a href="./index.html" target="_blank">Conheça o site!</a>                
             </td>
         </tr>
     </table>
-
 </body>
 </html>

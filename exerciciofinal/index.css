@@ -142,3 +142,18 @@ img {
         height: 240px !important;
     }
 }
+
+@media (max-width: 425px) {
+    #max-container {
+        padding: 0;
+        padding-top: 10px;
+    }
+    h2, h3, h4, p {
+        padding-left: 20px;
+        padding-right: 20px;
+    }    
+    .cog-form__container {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+}
